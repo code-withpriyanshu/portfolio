@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Priyanshu Patel</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#desktop-nav" class = " hoverz">Home</a></li>
+          <li><a href="#about" class = " hoverz">About</a></li>
+          <li><a href="#contact" class = " hoverz">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <!-- profile -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="/pictures/pfp.jpg" alt="priyanshu profile picture" />
+      </div>
+      <div class="section__text">
+        <span id="element"></span>
+        <h1 class="title">Priyanshu Patel</h1>
+        <p class="section__text__p2">Junior Frontend Developer</p>
+        <div class="btn-container">
+        
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="/pictures/icons8-linkedin-50.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/priyanshu-patel-ab2866276/'"
+          />
+          <img
+            src="/pictures/icons8-github-64.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/code-withpriyanshu'"
+          />
+          <img
+            src="/pictures/icons8-insta-32.png"
+            alt="My Insta profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/priyanshuuu_uuu/?hl=en'"
+          />
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="/pictures/icons8-gmail-50.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:priyanshu.cto@gmail.com"><span id="element1"></span></a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="/pictures/icons8-linkedin-50.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/priyanshu-patel-ab2866276/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#desktop-nav">Home</a></li>
+            <li><a href="#experience">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023  Priyanshu Patel. All Rights Reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Hello</i> I am.'],
+      typeSpeed: 50,
+    });
+    var typed = new Typed('#element1', {
+      strings: ['<i>priyanshu.cto@gmail.com</i>'],
+      typeSpeed: 50,
+    });
+  </script>
+  </body>
+</html>
