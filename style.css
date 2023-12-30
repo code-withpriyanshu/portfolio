@@ -95,7 +95,6 @@ a:hover {
   max-height: 300px;
 }
 
-
 /* SECTIONS */
 
 section {
@@ -237,8 +236,6 @@ section {
   border-radius: 2rem;
 }
 
-
-
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -259,8 +256,6 @@ section {
   width: 400px;
   margin: auto 0;
 }
-
-
 
 /* CONTACT */
 
