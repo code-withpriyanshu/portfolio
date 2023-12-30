@@ -16,9 +16,7 @@
     #desktop-nav {
       display: none;
     }
-    #hamburger-nav {
-      display: flex;
-    }
+    
     #experience,
     .experience-details-container {
       margin-top: 2rem;
@@ -26,6 +24,8 @@
     #profile,
     .section-container {
       display: block;
+      position: relative;
+    top: 8vw;
     }
     .arrow {
       display: none;
@@ -55,7 +55,11 @@
     #profile {
       height: 83vh;
       margin-bottom: 0;
+      position: relative;
+    top: 8vw;
     }
+
+    
     article {
       font-size: 1rem;
     }
