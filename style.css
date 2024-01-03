@@ -52,10 +52,10 @@ a {
 }
 
 a:hover {
-  color: grey;
-  text-decoration: underline;
-  text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  /* color: grey; */
+  /* text-decoration: underline; */
+  /* text-underline-offset: 1rem; */
+  /* text-decoration-color: rgb(181, 181, 181); */
 }
 
 .logo {
@@ -93,6 +93,9 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
+}
+.hoverz:hover{
+  font-size: 1.8rem;
 }
 
 /* SECTIONS */
