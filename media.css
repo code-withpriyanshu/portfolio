@@ -105,7 +105,7 @@
   }
   .mcontainer{
     flex-direction: column;
-    height: 233vw;
+    height: fit-content;
     row-gap: 3vw;
   }
 }
