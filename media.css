@@ -103,4 +103,9 @@
   .text-container {
     text-align: justify;
   }
+  .mcontainer{
+    flex-direction: column;
+    height: 233vw;
+    row-gap: 3vw;
+  }
 }
