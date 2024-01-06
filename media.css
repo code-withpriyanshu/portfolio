@@ -47,6 +47,19 @@
   .about-containers {
     margin-top: 0;
   }
+  #about{
+    height: fit-content;
+    margin-bottom: 20vw;
+  }
+  #projects{
+    height: fit-content;
+    margin-bottom: 20vw;
+  }
+  #profile {
+    height: fit-content;
+    margin-bottom: 20vw;
+    margin-top: 8vw;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -54,9 +67,17 @@
   footer {
     height: 40vh;
   }
+  #about{
+    height: fit-content;
+    margin-bottom: 20vw;
+  }
+  #projects{
+    height: fit-content;
+    margin-bottom: 20vw;
+  }
   #profile {
-    height: 66vh;
-    margin-bottom: 0;
+    height: fit-content;
+    margin-bottom: 20vw;
     margin-top: 8vw;
   }
   article {
